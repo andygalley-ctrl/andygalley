@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+_003<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -44,15 +44,15 @@
   // Initialize Pendo
   pendo.initialize({
     visitor: {
-      id:        'visitor_id',             // Required if user is logged in
-      email:     'email',    // Recommended
-      full_name: 'full_name',            // Recommended
-      role:      'role'                  // Optional
+      id:        'user_007',             // Required if user is logged in
+      email:     'noreply@test.com',    // Recommended
+      full_name: 'James Bond',            // Recommended
+      role:      'Spy'                  // Optional
     },
     account: {
-      id:     'account_id',             // Highly recommended
-      name:   'name',                 // Optional
-      status: 'status'                   // Custom
+      id:     'account_mi6',             // Highly recommended
+      name:   'MI6',                 // Optional
+      status: 'classified'                   // Custom
     }
   });
 
@@ -60,7 +60,7 @@
   pendo.track("REGISTER", {
     pageTitle: "Register Page",
     planType: "Test Plan Type 2",
-    superAdmin: true
+    superAdmin: false
   });
 
 })('d4697a10-cb80-4baf-8d84-65cddd99874f');
